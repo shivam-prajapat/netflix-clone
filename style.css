@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.main{
+    background-image: url(assets/img/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw) ;
+    height: 70vh;
+    position:relative;
+
+}
+body{
+    background-color: black;
+}
+
+.box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    color: white;
+
+}
+nav{
+    max-width: 70vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 80px;
+
+
+}
+nav img{
+    width: 115px;
+    position:relative;
+    z-index: 10;
+}
+nav button{
+    width: 115px;
+    position:relative;
+    z-index: 10;
+
+}
+.hero{
+    height: calc(100% - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position:relative;
+    font-family:'Segoe UI';
+    gap: 20px ;
+    padding: 0 30px ;
+    text-align: center;
+
+}
+.big1{
+    font-size: 56px;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.mini{
+   
+    font-size: 24px; 
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+.seperation{
+    height: 7px;
+    background-color:rgb(53, 52, 52) ;
+}
+.btn{
+    padding: 3px 8px ;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid rgba(255, 255, 255, 0.37);
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'segoe UI';
+}
+.red-sm{
+    background-color: red;
+
+}
+.red-sm1{
+    background-color: red;
+    padding: 6.7px 24px 6.7px;
+    font-size: 20px;
+    border-radius:4px ;
+    border: red;
+
+}
+.search-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+
+}
+input{
+    padding: 10px 101px 10px 13px;
+    color: white;
+    font-size: 14px;
+    border-radius:4px ;
+    background-color: rgba(23,23,23, 0.7);
+    border: 1px solid rgba(246,238,233, 0.5) ;
+}
+.sec-img{
+    background-image: url(assets/img/img1.webp);
+    
+
+}
